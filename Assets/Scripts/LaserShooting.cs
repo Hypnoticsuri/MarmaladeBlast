@@ -20,7 +20,7 @@ public class LaserShooting : MonoBehaviour
         {
             //Launce a Projectile From Player
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            
         }
     }
 }
