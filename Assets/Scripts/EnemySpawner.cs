@@ -7,9 +7,9 @@ public class EnemySpawner : MonoBehaviour
     public GameObject[] enemyPrefabs;
     public GameObject[] spawnPoints;
     public int enemyIndex;
-    private float spawnRangeX = 20;
-    private float spawnPosZ = 20;
-    private float startDelay = 2;
+   
+   
+    private float startDelay = 4;
     private float spawnInterval = 1.5f;
 
     // Start is called before the first frame update

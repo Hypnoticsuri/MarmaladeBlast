@@ -510,9 +510,10 @@ GameObject:
   - component: {fileID: 799225221976307940}
   - component: {fileID: 583047456200893073}
   - component: {fileID: -4705078097257743275}
+  - component: {fileID: -1977971319270872747}
   m_Layer: 0
   m_Name: Rat
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -580,6 +581,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23f92be3068c18d44ae28587ee16f523, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyDeathSound: {fileID: 8300000, guid: e78debd899240684b8a350b9020fa955, type: 3}
+--- !u!114 &-1977971319270872747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649130935058935804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae62e1723217c9a46940d49c147ddc2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  xRange: 24
+  enemyDirection: {x: 0, y: 0, z: 1}
+  changeDelay: 1
 --- !u!1 &8907404975214204355
 GameObject:
   m_ObjectHideFlags: 0
